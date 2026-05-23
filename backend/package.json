@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "bun",
+  "scripts": {
+    "build": "cd ../frontend && bun install && npx vite build --outDir=../backend/frontend/dist"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "encore.dev": "^1.57.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
