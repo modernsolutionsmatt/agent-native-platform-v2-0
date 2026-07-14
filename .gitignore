@@ -1,9 +1,6 @@
-.env
-.env.local
-.env.*.local
-node_modules/
-.encore/
-dist/
-build/
-*.log
-.DS_Store
+.encore
+encore.gen.go
+encore.gen.cue
+/.encore
+node_modules
+/encore.gen

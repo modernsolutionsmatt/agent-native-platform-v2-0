@@ -4,11 +4,10 @@
   "type": "module",
   "packageManager": "bun",
   "scripts": {
-    "build": "cd ../frontend && bun install && npx vite build --outDir=../backend/frontend/dist"
+    "build": "cd ../frontend \u0026\u0026 bun install \u0026\u0026 npx vite build --outDir=../backend/frontend/dist"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.0",
-    "encore.dev": "^1.57.5"
+    "encore.dev": "^1.56.0"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
